@@ -426,7 +426,7 @@ $messages['tg-cyrl'] = array(
 	'randomimage-desc' => 'Бо истифодаи <code>&lt;randomimage /&gt;</code> чинандаи расонаи тасодуфиро пешкаш мекунад',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -468,7 +468,7 @@ $messages['vec'] = array(
 	'randomimage-desc' => 'Fornisse un racoglitor de file casuali doparando el tag <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
