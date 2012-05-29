@@ -227,6 +227,13 @@ $messages['ja'] = array(
 	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code>を使って、ランダムにメディアをピックアップする機能を提供する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code>를 사용하여 임의의 미디어 선택하는 것을 제공합니다',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
