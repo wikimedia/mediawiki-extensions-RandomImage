@@ -41,14 +41,14 @@ $messages['arz'] = array(
 	'randomimage-desc' => 'يوفر ميديا عشوائية باستخدام <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
 	'randomimage-desc' => 'Ufre un selector de multimedia al debalu usando <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Sortilegus
  */
 $messages['az'] = array(
@@ -64,21 +64,21 @@ $messages['be-tarask'] = array(
 	'randomimage-desc' => 'Дазваляе выпадкова выбіраць мэдыяфайлы з дапамогай тэга <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'randomimage-desc' => 'Porurchas a ra ur restr liesmedia dre zegouezh en ur ober gant <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'randomimage-desc' => 'Omogućuje odabir slučajnih multimedijalnih datoteka koristeći <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -121,14 +121,14 @@ $messages['eo'] = array(
 	'randomimage-desc' => 'Donas selektilo de hazarda bildo uzante <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'randomimage-desc' => 'Proporciona un archivo multimedia al azar usando <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -142,7 +142,7 @@ $messages['fa'] = array(
 	'randomimage-desc' => 'با استفاده از <code>&lt;randomimage /&gt;</code> یک برگزینندهٔ رسانه به طور تصادفی ارائه می‌کند',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  */
@@ -150,7 +150,7 @@ $messages['fi'] = array(
 	'randomimage-desc' => 'Antaa satunnaisen mediatiedoston <code>&lt;randomimage /&gt;</code>-elementillä.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  */
 $messages['fr'] = array(
@@ -192,14 +192,14 @@ $messages['hsb'] = array(
 	'randomimage-desc' => 'Přidawa tafličku <code>&lt;randomimage /&gt;</code> za zwobraznjenje připadneho wobraza',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
 	'randomimage-desc' => 'Lehetővé teszi véletlenszerű médiafájl elhelyezését a <code>&lt;randomimage /&gt;</code> tag segítségével',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -213,7 +213,7 @@ $messages['id'] = array(
 	'randomimage-desc' => 'Menampilkan berkas media acak menggunakan <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -248,7 +248,7 @@ $messages['lb'] = array(
 	'randomimage-desc' => 'Weist eng zoufälleg Medien-Datei a benotzt <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -297,21 +297,21 @@ $messages['nl'] = array(
 	'randomimage-desc' => 'Voegt de tag <code>&lt;randomimage /&gt;</code> toe voor het selecteren van een willekeurig mediabestand',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  */
 $messages['nn'] = array(
 	'randomimage-desc' => 'Gjev ei tilfeldig mediefil ved å nytte <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'randomimage-desc' => "Provesís un mèdia a l'azard en utilizant <code>&lt;randomimage /&gt;</code>",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -325,7 +325,7 @@ $messages['pms'] = array(
 	'randomimage-desc' => 'A dà na cartela ëd file casuaj an dovrand <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -333,56 +333,56 @@ $messages['pt'] = array(
 	'randomimage-desc' => 'Fornece um selector aleatório de ficheiros multimédia usando <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'randomimage-desc' => 'Provê um seletor de media aleatória usando <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'randomimage-desc' => "S'ause pe fa assè 'nu pigghiatore de immaggine a uecchje <code>&lt;randomimage /&gt;</code>",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'randomimage-desc' => 'Позволяет случайно выбирать медиа с помощью <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Santu
  */
 $messages['scn'] = array(
 	'randomimage-desc' => 'Pruvvedi a dari nu cuntinituri di file ammuzzu sirvènnusi dû tag <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'randomimage-desc' => 'Poskytuje náhodný výber multimediálnych súborov pomocou značky <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'randomimage-desc' => 'Omogoča izbirnika naključne predstavnosti z uporabo <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
 	'randomimage-desc' => 'Mundëson hapje të rastësishme të mediave duke përdorur <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -390,7 +390,7 @@ $messages['sr-ec'] = array(
 	'randomimage-desc' => 'Приказује случајног бирача датотека користећи <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  */
@@ -412,7 +412,7 @@ $messages['su'] = array(
 	'randomimage-desc' => 'Nyadiakeun pamilih média sacara acak migunakeun <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -426,14 +426,14 @@ $messages['te'] = array(
 	'randomimage-desc' => 'యాదృచ్ఛిక మాధ్యమాంశము తెచ్చే పరికరాన్ని <code>&lt;randomimage /&gt;</code>తో అందిస్తుంది.',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'randomimage-desc' => 'Бо истифодаи <code>&lt;randomimage /&gt;</code> чинандаи расонаи тасодуфиро пешкаш мекунад',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -461,14 +461,14 @@ $messages['tr'] = array(
 	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code> kullanarak bir rasgele ortam alıcısı sağlar',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ahonc
  */
 $messages['uk'] = array(
 	'randomimage-desc' => 'Дозволяє випадково вибирати медіа за допомогою <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
