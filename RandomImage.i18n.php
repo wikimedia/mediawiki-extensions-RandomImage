@@ -55,7 +55,7 @@ $messages['az'] = array(
 	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code> vasitəsilə təsadüfi media seçimi etmək imkanı verir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -100,7 +100,7 @@ $messages['de'] = array(
 	'randomimage-desc' => 'Fügt das <code>&lt;randomimage /&gt;</code>-Tag zur Anzeige eines zufälligen Bildes hinzu',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -157,7 +157,7 @@ $messages['fr'] = array(
 	'randomimage-desc' => 'Fournit un média au hasard en utilisant <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -185,7 +185,7 @@ $messages['hil'] = array(
 	'randomimage-desc' => 'Nagahatag sang ginpalgpat medya gapangkuha gamit ang <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
