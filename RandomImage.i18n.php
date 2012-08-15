@@ -222,9 +222,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Mizusumashi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code>を使って、ランダムにメディアをピックアップする機能を提供する',
+	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code>を使用して、メディアを無作為抽出する機能を提供する',
 );
 
 /** Korean (한국어)
