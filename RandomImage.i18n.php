@@ -55,7 +55,7 @@ $messages['az'] = array(
 	'randomimage-desc' => '<code>&lt;randomimage /&gt;</code> vasitəsilə təsadüfi media seçimi etmək imkanı verir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -277,7 +277,7 @@ $messages['ms'] = array(
 	'randomimage-desc' => 'Membekalkan pemilih media rawak menggunakan <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'randomimage-desc' => 'Gir en tilfeldig mediefil ved å bruke <code>&lt;randomimage /&gt;</code>',
 );
@@ -296,7 +296,7 @@ $messages['nl'] = array(
 	'randomimage-desc' => 'Voegt de tag <code>&lt;randomimage /&gt;</code> toe voor het selecteren van een willekeurig mediabestand',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  */
 $messages['nn'] = array(
@@ -381,7 +381,7 @@ $messages['sq'] = array(
 	'randomimage-desc' => 'Mundëson hapje të rastësishme të mediave duke përdorur <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -389,7 +389,7 @@ $messages['sr-ec'] = array(
 	'randomimage-desc' => 'Приказује случајног бирача датотека користећи <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  */
