@@ -487,4 +487,3 @@ $messages['vep'] = array(
 $messages['vi'] = array(
 	'randomimage-desc' => 'Cung cấp một trình chọn tập tin ngẫu nhiên dùng <code>&lt;randomimage /&gt;</code>',
 );
-
