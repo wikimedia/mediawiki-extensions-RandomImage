@@ -487,3 +487,10 @@ $messages['vep'] = array(
 $messages['vi'] = array(
 	'randomimage-desc' => 'Cung cấp một trình chọn tập tin ngẫu nhiên dùng <code>&lt;randomimage /&gt;</code>',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'randomimage-desc' => '提供一个随机媒体文件挑选器，使用<code>&lt;randomimage /&gt;</code>',
+);
