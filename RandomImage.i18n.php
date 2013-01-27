@@ -277,7 +277,8 @@ $messages['ms'] = array(
 	'randomimage-desc' => 'Membekalkan pemilih media rawak menggunakan <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'randomimage-desc' => 'Gir en tilfeldig mediefil ved å bruke <code>&lt;randomimage /&gt;</code>',
 );
