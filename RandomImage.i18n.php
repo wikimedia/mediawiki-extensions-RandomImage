@@ -14,10 +14,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'randomimage-desc' => '{{desc}}',
+	'randomimage-desc' => '{{desc|name=Random Image|url=http://www.mediawiki.org/wiki/Extension:RandomImage}}',
 );
 
 /** Afrikaans (Afrikaans)
