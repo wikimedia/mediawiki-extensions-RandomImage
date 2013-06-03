@@ -278,7 +278,7 @@ $messages['ms'] = array(
 	'randomimage-desc' => 'Membekalkan pemilih media rawak menggunakan <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'randomimage-desc' => 'Gir en tilfeldig mediefil ved å bruke <code>&lt;randomimage /&gt;</code>',
@@ -298,7 +298,7 @@ $messages['nl'] = array(
 	'randomimage-desc' => 'Voegt de tag <code>&lt;randomimage /&gt;</code> toe voor het selecteren van een willekeurig mediabestand',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Frokor
  */
 $messages['nn'] = array(
