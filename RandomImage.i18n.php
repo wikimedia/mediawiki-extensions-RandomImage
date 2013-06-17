@@ -496,3 +496,10 @@ $messages['vi'] = array(
 $messages['zh-hans'] = array(
 	'randomimage-desc' => '提供一个随机媒体文件挑选器，使用<code>&lt;randomimage /&gt;</code>',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'randomimage-desc' => '使用<code>&lt;randomimage /&gt;</code>提供一個隨機媒體檔案挑選器',
+);
