@@ -491,10 +491,11 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Hzy980512
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
-	'randomimage-desc' => '提供一个随机媒体文件挑选器，使用<code>&lt;randomimage /&gt;</code>',
+	'randomimage-desc' => '使用<code>&lt;randomimage /&gt;</code>来提供随机媒体选择器',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
