@@ -79,7 +79,7 @@ $messages['bs'] = array(
 	'randomimage-desc' => 'Omogućuje odabir slučajnih multimedijalnih datoteka koristeći <code>&lt;randomimage /&gt;</code>',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
