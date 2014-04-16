@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha",
-            "Shirayuki",
-            "The Evil IP address"
-        ]
-    },
-    "randomimage-desc": "{{desc|name=Random Image|url=http://www.mediawiki.org/wiki/Extension:RandomImage}}"
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address"
+		]
+	},
+	"randomimage-desc": "{{desc|name=Random Image|url=http://www.mediawiki.org/wiki/Extension:RandomImage}}"
 }

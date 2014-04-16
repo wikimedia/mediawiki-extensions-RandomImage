@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Frokor"
-        ]
-    },
-    "randomimage-desc": "Gjev ei tilfeldig mediefil ved å nytte <code>&lt;randomimage /&gt;</code>"
+	"@metadata": {
+		"authors": [
+			"Frokor"
+		]
+	},
+	"randomimage-desc": "Gjev ei tilfeldig mediefil ved å nytte <code>&lt;randomimage /&gt;</code>"
 }

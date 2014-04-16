@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Raimond Spekking"
-        ]
-    },
-    "randomimage-desc": "Fügt das <code>&lt;randomimage /&gt;</code>-Tag zur Anzeige eines zufälligen Bildes hinzu"
+	"@metadata": {
+		"authors": [
+			"Raimond Spekking"
+		]
+	},
+	"randomimage-desc": "Fügt das <code>&lt;randomimage /&gt;</code>-Tag zur Anzeige eines zufälligen Bildes hinzu"
 }

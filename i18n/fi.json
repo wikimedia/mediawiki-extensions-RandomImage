@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crt",
-            "Nike"
-        ]
-    },
-    "randomimage-desc": "Antaa satunnaisen mediatiedoston <code>&lt;randomimage /&gt;</code>-elementillä."
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Nike"
+		]
+	},
+	"randomimage-desc": "Antaa satunnaisen mediatiedoston <code>&lt;randomimage /&gt;</code>-elementillä."
 }

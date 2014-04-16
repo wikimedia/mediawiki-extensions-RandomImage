@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meno25"
-        ]
-    },
-    "randomimage-desc": "يوفر ميديا عشوائية باستخدام <code>&lt;randomimage /&gt;</code>"
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"randomimage-desc": "يوفر ميديا عشوائية باستخدام <code>&lt;randomimage /&gt;</code>"
 }

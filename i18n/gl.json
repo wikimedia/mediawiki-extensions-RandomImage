@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "randomimage-desc": "Proporciona un seleccionador multimedia ao chou usando <code>&lt;randomimage /&gt;</code>"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"randomimage-desc": "Proporciona un seleccionador multimedia ao chou usando <code>&lt;randomimage /&gt;</code>"
 }
