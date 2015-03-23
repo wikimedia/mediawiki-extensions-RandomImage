@@ -3,8 +3,9 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
-	"randomimage-desc": "{{desc|name=Random Image|url=http://www.mediawiki.org/wiki/Extension:RandomImage}}"
+	"randomimage-desc": "{{desc|name=Random Image|url=https://www.mediawiki.org/wiki/Extension:RandomImage}}"
 }
