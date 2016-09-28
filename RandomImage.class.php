@@ -170,7 +170,7 @@ class RandomImage {
 		$name = count( $this->choices ) > 1
 			? $this->choices[ array_rand( $this->choices ) ]
 			: $this->choices[0];
-		return Title::makeTitleSafe( NS_IMAGE, $name );
+		return Title::makeTitleSafe( NS_FILE, $name );
 	}
 	
 	/**
@@ -189,7 +189,7 @@ class RandomImage {
 				'page_title',
 			),
 			array(
-				'page_namespace' => NS_IMAGE,
+				'page_namespace' => NS_FILE,
 				'page_is_redirect' => 0,
 				'page_random > ' . $dbr->addQuotes( wfRandom() ),
 			) + $conds,
