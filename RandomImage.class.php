@@ -110,7 +110,8 @@ class RandomImage {
 	 * @return string
 	 */
 	protected function removeMagnifier( $html ) {
-		$doc = DOMDocument::loadHTML( $html );
+		$dom = new DOMDocument();
+		$doc = $dom->loadHTML( $html );
 		$xpath = new DOMXPath( $doc );
 		foreach( $xpath->query( '//div[@class="magnify"]' ) as $mag )
 			$mag->parentNode->removeChild( $mag );
