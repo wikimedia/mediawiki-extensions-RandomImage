@@ -190,7 +190,7 @@ class RandomImage {
 	 * @return Title
 	 */
 	protected function pickFromDatabase() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		list( $table, $conds, $opts ) = $this->getExtraSelectOptions( $dbr );
 		$res = $dbr->select(
 			$table,
