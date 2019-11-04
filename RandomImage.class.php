@@ -256,7 +256,7 @@ class RandomImage {
 	public static function renderHook( $input, $args, $parser ) {
 		global $wgRandomImageNoCache;
 		if ( $wgRandomImageNoCache ) {
-			$parser->disableCache();
+			$parser->getOutput()->updateCacheExpiry( 0 );
 		}
 		$random = new RandomImage( $parser, $args, $input );
 		return $random->render();
