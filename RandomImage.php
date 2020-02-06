@@ -7,7 +7,7 @@
  * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
  * @copyright © 2006 Rob Church
- * @licence GNU General Public Licence 2.0
+ * @license GPL-2.0-only
  */
 class RandomImage {
 
@@ -17,7 +17,7 @@ class RandomImage {
 	private $float = false;
 	private $caption = '';
 
-	private $choices = array();
+	private $choices = [];
 
 	/**
 	 * Constructor
@@ -47,7 +47,7 @@ class RandomImage {
 		if ( isset( $options['float'] ) ) {
 			$float = strtolower( $options['float'] );
 			// TODO: Use magic words instead
-			if ( in_array( $float, array( 'left', 'right', 'center' ) ) ) {
+			if ( in_array( $float, [ 'left', 'right', 'center' ] ) ) {
 				$this->float = $float;
 			}
 		}
@@ -237,7 +237,7 @@ class RandomImage {
 	/**
 	 * Hook setup
 	 *
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 * @return bool
 	 */
 	public static function onParserFirstCallInit( &$parser ) {
@@ -266,7 +266,7 @@ class RandomImage {
 	 * Strip <randomcaption> tags out of page text
 	 *
 	 * @param Parser $parser Calling parser
-	 * @param string $text Page text
+	 * @param string &$text Page text
 	 * @return bool
 	 */
 	public static function stripHook( $parser, &$text ) {
