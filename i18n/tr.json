@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joseph"
+			"Joseph",
+			"BaRaN6161 TURK"
 		]
 	},
-	"randomimage-desc": "<code>&lt;randomimage /&gt;</code> kullanarak bir rasgele ortam alıcısı sağlar"
+	"randomimage-desc": "<code>&lt;randomimage /&gt;</code> kullanarak bir rastgele ortam alıcısı sağlar"
 }
