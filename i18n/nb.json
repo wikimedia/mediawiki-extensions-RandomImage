@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"randomimage-desc": "Gir en tilfeldig mediefil ved å bruke <code>&lt;randomimage /&gt;</code>"
 }
