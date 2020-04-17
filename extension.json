@@ -21,11 +21,12 @@
 		]
 	},
 	"Hooks": {
-		"ParserAfterStrip": "RandomImage::stripHook",
+		"ParserBeforePreprocess": "RandomImage::stripHook",
+		"ParserBeforeInternalParse": "RandomImage::stripHook",
 		"ParserFirstCallInit": "RandomImage::onParserFirstCallInit"
 	},
 	"manifest_version": 1,
 	"requires": {
-		"MediaWiki": ">= 1.16.3"
+		"MediaWiki": ">= 1.35"
 	}
 }
