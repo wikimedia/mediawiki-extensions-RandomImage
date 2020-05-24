@@ -209,7 +209,9 @@ class RandomImage {
 		];
 
 		if ( $wgRandomImageStrict ) {
-			$tables[] = 'image';
+			list( $image, $page ) = $dbr->tableNamesN( 'image', 'page' );
+			$ind = $dbr->useIndexClause( 'page_random' );
+			$tables = "{$page} {$ind} LEFT JOIN {$image} ON img_name = page_title";
 			$conds[] = 'img_name = page_title';
 			$conds['img_major_mime'] = 'image';
 		}
@@ -220,7 +222,6 @@ class RandomImage {
 			$conds,
 			__METHOD__,
 			[
-				'USE INDEX' => 'page_random',
 				'ORDER BY' => 'page_random'
 			]
 		);
