@@ -13,7 +13,7 @@
 		"RandomImageNoCache": false
 	},
 	"AutoloadClasses": {
-		"RandomImage": "RandomImage.php"
+		"RandomImage": "includes/RandomImage.php"
 	},
 	"MessagesDirs": {
 		"RandomImage": [
