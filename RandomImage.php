@@ -207,13 +207,13 @@ class RandomImage {
 			'page_is_redirect' => 0,
 			'page_random > ' . $dbr->addQuotes( wfRandom() ),
 		];
+		$joins = [];
 
 		if ( $wgRandomImageStrict ) {
-			list( $image, $page ) = $dbr->tableNamesN( 'image', 'page' );
-			$ind = $dbr->useIndexClause( 'page_random' );
-			$tables = "{$page} {$ind} LEFT JOIN {$image} ON img_name = page_title";
+			$tables[] = 'image';
 			$conds[] = 'img_name = page_title';
 			$conds['img_major_mime'] = 'image';
+			$joins['image'] = [ 'LEFT JOIN', 'img_name = page_title' ];
 		}
 
 		$row = $dbr->selectRow(
@@ -222,8 +222,10 @@ class RandomImage {
 			$conds,
 			__METHOD__,
 			[
+				'USE INDEX' => [ 'page' => 'page_random' ],
 				'ORDER BY' => 'page_random'
-			]
+			],
+			$joins
 		);
 
 		return $row ? Title::newFromRow( $row ) : null;
