@@ -1,8 +1,6 @@
 {
 	"@metadata": {
-		"authors": [
-			"Cedric31"
-		]
+		"authors": []
 	},
 	"randomimage-desc": "Provesís un mèdia a l'azard en utilizant <code>&lt;randomimage /&gt;</code>"
 }
