@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"M.M.S."
+		]
 	},
 	"randomimage-desc": "Ger en tillfällig mediafil genom att använda <code>&lt;randomimage /&gt;</code>"
 }
