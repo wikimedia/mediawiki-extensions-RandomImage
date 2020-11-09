@@ -89,12 +89,7 @@ class RandomImage {
 	 * @return bool
 	 */
 	protected function imageExists( $title ) {
-		if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
-			// MediaWiki 1.34+
-			$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
-		} else {
-			$file = wfFindFile( $title );
-		}
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $title );
 		return is_object( $file ) && $file->exists();
 	}
 
