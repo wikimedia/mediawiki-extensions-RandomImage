@@ -120,6 +120,8 @@ class RandomImage {
 	 */
 	protected function removeMagnifier( $html ) {
 		$dom = new DOMDocument();
+		// Let's speak UTF-8 like all civilized people do (T266864)
+		$html = mb_convert_encoding( $html, 'HTML-ENTITIES', 'UTF-8' );
 		$dom->loadHTML( $html );
 		$xpath = new DOMXPath( $dom );
 		foreach ( $xpath->query( '//div[@class="magnify"]' ) as $mag ) {
