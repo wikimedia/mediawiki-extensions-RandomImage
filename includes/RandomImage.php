@@ -1,6 +1,8 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionAccessException;
+use MediaWiki\Revision\SlotRecord;
 
 /**
  * Class file for the RandomImage extension
@@ -137,8 +139,16 @@ class RandomImage {
 	protected function getCaption( $title ) {
 		if ( !$this->caption ) {
 			if ( $title->exists() ) {
-				$content = Revision::newFromTitle( $title )->getContent();
-				$text = ContentHandler::getContentText( $content );
+				$rev = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( $title );
+				$text = '';
+				if ( $rev !== null ) {
+					try {
+						$content = $rev->getContent( SlotRecord::MAIN );
+						$text = ContentHandler::getContentText( $content );
+					} catch ( RevisionAccessException $ex ) {
+						// Do nothing, I guess...
+					}
+				}
 				if ( preg_match( '!<randomcaption>(.*?)</randomcaption>!i', $text, $matches ) ) {
 					$this->caption = $matches[1];
 				} elseif ( preg_match( "!^(.*?)\n!i", $text, $matches ) ) {
