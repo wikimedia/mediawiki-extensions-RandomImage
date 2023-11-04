@@ -122,6 +122,7 @@ class RandomImage {
 	 */
 	protected function removeMagnifier( $html ) {
 		$dom = new DOMDocument();
+		libxml_use_internal_errors( true );
 		$dom->loadHTML( '<!doctype html><html><head><meta charset="UTF-8"/></head><body>' . $html . '</body></html>' );
 		$xpath = new DOMXPath( $dom );
 		foreach ( $xpath->query( '//div[@class="magnify"]' ) as $mag ) {
