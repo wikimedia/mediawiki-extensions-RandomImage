@@ -205,7 +205,7 @@ class RandomImage {
 	protected function pickFromDatabase() {
 		global $wgRandomImageStrict;
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$tables = [ 'page' ];
 		$conds = [
