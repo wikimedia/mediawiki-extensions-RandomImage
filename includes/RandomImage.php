@@ -145,7 +145,7 @@ class RandomImage {
 				if ( $rev !== null ) {
 					try {
 						$content = $rev->getContent( SlotRecord::MAIN );
-						$text = ContentHandler::getContentText( $content );
+						$text = $content instanceof TextContent ? $content->getText() : '';
 					} catch ( RevisionAccessException $ex ) {
 						// Do nothing, I guess...
 					}
